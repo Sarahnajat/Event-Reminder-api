@@ -1,0 +1,64 @@
+{
+  "name": "schuale-api",
+  "version": "1.0.0",
+  "description": "an api for schuale ",
+  "homepage": "https://github.com/Sarahnajat/facebook-api#readme",
+  "bugs": {
+    "url": "https://github.com/Sarahnajat/facebook-api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sarahnajat/facebook-api.git"
+  },
+  "license": "ISC",
+  "author": "sarah najat",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "ndb index.js"
+  },
+  "dependencies": {
+    "agenda": "^5.0.0",
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^7.5.0",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.1.0",
+    "hpp": "^0.2.3",
+    "http-status": "^2.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.13.1",
+    "mongoose": "^8.3.4",
+    "morgan": "^1.10.0",
+    "ndb": "^0.2.4",
+    "node": "^23.9.0",
+    "nodemailer": "^6.10.1",
+    "nodemon": "^3.1.9",
+    "slugify": "^1.6.6",
+    "utils": "^0.2.2",
+    "validator": "^13.15.0",
+    "xss": "^1.0.15",
+    "xss-clean": "^0.1.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^10.0.2",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^5.2.3",
+    "eslint-plugin-react": "^7.37.4",
+    "globals": "^16.0.0",
+    "pretier": "^0.0.1",
+    "prettier": "^3.5.2"
+  }
+}

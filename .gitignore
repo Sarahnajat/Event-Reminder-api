@@ -1,0 +1,14 @@
+node_modules/
+config/
+
+.vscode/
+
+# Environment variables
+.env.*
+
+# ndb debugger
+.ndb/
+
+logs/
+*.log
+npm-debug.log
